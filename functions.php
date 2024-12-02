@@ -4,3 +4,5 @@
     'main_menu'   => __( 'Main Menu', 'eunhwa_portfolio' ),
     'footer_menu' => __( 'footer Menu', 'eunhwa_portfolio' )
   ) );
+
+  add_theme_support( 'post-thumbnails' );
