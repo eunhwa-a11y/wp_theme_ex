@@ -50,7 +50,13 @@
         ) );
       
       ?>
-      <?php get_search_form() ?>
+      <?php
+        // get_search_form()
+      ?>
+      <form action="http://localhost/wordpress/">
+        <input type="search" name="s">
+        <button>검색</button>
+      </form>
     </nav><!-- .main -->
 
     <div class="main">
